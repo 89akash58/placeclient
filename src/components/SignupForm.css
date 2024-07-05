@@ -1,0 +1,180 @@
+/* SignupForm.css */
+
+.signup-background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-triangles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.triangle-1 {
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #fae605;
+  top: 10%;
+  left: -5%;
+  transform: rotate(40deg);
+}
+
+.triangle-2 {
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 180px solid #ffec7d;
+  bottom: 0;
+  left: -2%;
+  transform: rotate(50deg);
+}
+
+.triangle-3 {
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid #dbd42b82;
+  bottom: 44%;
+  left: 22%;
+  transform: rotate(15deg);
+}
+
+.triangle-4 {
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+  border-bottom: 250px solid #61bdff;
+  bottom: 40%;
+  left: 43%;
+  transform: rotate(650deg);
+}
+
+.triangle-5 {
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #fffb87;
+  top: -10%;
+  right: -4%;
+  transform: rotate(40deg);
+}
+.triangle-6 {
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #fffb87;
+  top: -10%;
+  right: -4%;
+  transform: rotate(40deg);
+}
+.triangle-7 {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 80px solid #afea86;
+  bottom: 10%;
+  left: 34%;
+  transform: rotate(50deg);
+}
+.triangle-8 {
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #ffae0c;
+  top: 40%;
+  right: -12%;
+  transform: rotate(40deg);
+}
+.triangle-9 {
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #02c06d;
+  top: -32%;
+  left: 30%;
+  transform: rotate(40deg);
+}
+.triangle-10 {
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid #e5e16b;
+  top: 40%;
+  right: 18%;
+  transform: rotate(40deg);
+}
+.triangle-11 {
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #02b544;
+  bottom: -12%;
+  right: 12%;
+  transform: rotate(47deg);
+}
+
+/* Add more triangles if needed */
+
+/* Existing styles */
+.signup-container {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 57ch;
+  text-align: center;
+}
+
+/* .formdesign {
+  display: flex;
+  flex-direction: column;
+} */
+
+.signup {
+  position: relative;
+  margin: 15px;
+  width: 70%;
+}
+
+.input-icon {
+  position: absolute;
+  padding: 20px;
+  top: 20px;
+  transform: translateY(-50%);
+}
+
+input {
+  /* padding: 10px 10px 10px 40px; */
+  border-radius: 20px;
+  padding-left: 40px;
+  height: 6vh;
+  border: 1px solid #ccc;
+  width: 90%;
+}
+.formdesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  width: 10vw;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
