@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/placeclient/static/css/main.11af3315.css",
+    "main.js": "/placeclient/static/js/main.42733452.js",
+    "index.html": "/placeclient/index.html",
+    "main.11af3315.css.map": "/placeclient/static/css/main.11af3315.css.map",
+    "main.42733452.js.map": "/placeclient/static/js/main.42733452.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11af3315.css",
+    "static/js/main.42733452.js"
+  ]
+}
